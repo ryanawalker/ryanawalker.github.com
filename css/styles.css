@@ -294,7 +294,7 @@ footer {
 }
 
 .social li {
- display:inline-block;
+ display:inline;
 }
 
 .social li a {
@@ -334,7 +334,7 @@ footer {
 
 @media only screen and (max-width:800px) {
 	.intro h1 {
-		font-size: 4em;
+		font-size: 3em;
 		line-height: 1.2;
 	}
 	.intro h2 {
@@ -344,7 +344,7 @@ footer {
 	.about p {
 		font-size: 1em;
 		line-height: 2;
-	}
+    }
 	footer {
 		height: 130px;
 		line-height: 1.3em;
@@ -354,7 +354,7 @@ footer {
 		font-size: 14px;
 	}
 	.social {
-		float: left;
+	    display:block;
 	}
 	.social li a {
 		font-size: 1.3em;
@@ -362,5 +362,13 @@ footer {
 	.contact-content {
 		font-size: 12px;
 		line-height: 1.5;
-	}
+    }
+
+@media only screen and (max-width:600px) {
+    .circle-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    }
+}
 }
