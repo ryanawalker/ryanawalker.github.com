@@ -363,6 +363,7 @@ footer {
 		font-size: 12px;
 		line-height: 1.5;
     }
+}
 
 @media only screen and (max-width:600px) {
     .circle-image {
@@ -370,5 +371,4 @@ footer {
         height: 100%;
         margin-left: 0;
     }
-}
 }
